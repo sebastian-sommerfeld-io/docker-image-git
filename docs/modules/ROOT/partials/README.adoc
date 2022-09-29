@@ -10,8 +10,8 @@ image:{github-actions-url}/{job-release}/{badge}[Github Badge, link={github-acti
 * Docker image tag scheme -> link:https://www.sommerfeld.io/docs/projects/infrastructure-docs/main/GUIDELINES/index.html#_version_tags[Guidelines and Conventions] on docs.cloud.sommerfeld.io
 * Where to file issues -> {url-project}/issues
 
-== What is `{image-name}`?
-The `{image-name}` image ships with git and my own `.gitconfig` file.
+== About this image
+The _{image-name}_ image ships with git and my own `.gitconfig` file.
 
 CAUTION: Since this image contains my own `.gitconfig` file this image is not universally usable.
 
