@@ -1,7 +1,7 @@
 ---
 name: docker-images-git
 title: Docker Image git
-version: v0.0.1
+version: main
 start_page: ROOT:index.adoc
 nav:
   - modules/ROOT/nav.adoc
