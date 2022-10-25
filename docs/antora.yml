@@ -1,7 +1,7 @@
 ---
 name: docker-images-git
 title: Docker Image git
-version: main
+version: feat__pipeline-cleanup
 start_page: ROOT:index.adoc
 nav:
   - modules/ROOT/nav.adoc
