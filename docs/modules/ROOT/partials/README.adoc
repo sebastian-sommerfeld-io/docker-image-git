@@ -13,7 +13,7 @@ image:{github-actions-url}/{job-release}/{badge}[Github Badge, link={github-acti
 == About this image
 The _{image-name}_ image ships with git and my own `.gitconfig` file.
 
-CAUTION: Since this image contains my own `.gitconfig` file this image is not universally usable.
+IMPORTANT: Since this image contains my own `.gitconfig` file this image is not universally usable.
 
 To see which packages are shipped with this image, take a look at the link:https://github.com/sebastian-sommerfeld-io/{project-name}/blob/main/src/main/Dockerfile[Dockerfile].
 
