@@ -2,5 +2,9 @@
 FROM bitnami/git:2.38.1-debian-11-r9
 LABEL maintainer="sebastian@sommerfeld.io"
 
-USER bitnami:1000
-COPY assets/.gitconfig /home/bitnami/.gitconfig
+RUN groupadd -g 1000 sebastian \
+    && useradd -r -u 1000 -g sebastian sebastian \
+    && chsh -s /bin/bash sebastian
+
+USER sebastian
+COPY assets/.gitconfig /home/sebastian/.gitconfig
