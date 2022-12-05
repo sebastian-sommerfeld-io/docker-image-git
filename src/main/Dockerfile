@@ -1,5 +1,5 @@
-# Git 2.35.1 for Debian 10-r37 -> https://docs.bitnami.com/tutorials/understand-rolling-tags-containers
-FROM bitnami/git:2.38.1-debian-11-r9
+# Git 2.38.1 for Debian 11-r16 -> https://docs.bitnami.com/tutorials/understand-rolling-tags-containers
+FROM bitnami/git:2.38.1-debian-11-r16
 LABEL maintainer="sebastian@sommerfeld.io"
 
 RUN groupadd -g 1000 sebastian \
